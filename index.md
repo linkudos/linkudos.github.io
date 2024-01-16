@@ -1,6 +1,14 @@
 ---
 title: "Resources"
 ---
+<style>
+body {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
+}
+</style>
+
 # Style Guide
 - [Go Style](https://linkudos.github.io/styleguide/go/index)
 - [HTML CSS Style](https://linkudos.github.io/styleguide/htmlcssguide)
