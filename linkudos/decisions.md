@@ -2,7 +2,7 @@
 
 # Go Style Decisions
 
-https://linkudos.github.io/decisions
+https://linkudos.github.io/linkudos/decisions
 
 [Overview](index) | [Guide](guide) | [Decisions](decisions) |
 [Best practices](best-practices)
