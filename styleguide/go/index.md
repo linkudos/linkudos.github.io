@@ -1,13 +1,3 @@
-<style>
-body {
-  background-color: #121212;
-  color: #ffffff;
-  padding: 20px;
-}
-table {
-  background-color: #333333;
-}
-</style>
 # Go Style
 
 https://linkudos.github.io/styleguide/go

@@ -3,12 +3,6 @@ AUTHORS:
 Prefer only GitHub-flavored Markdown in external text.
 See README.md for details.
 -->
-<style>
-body {
-  background-color: #121212;
-  color: #ffffff;
-  padding: 20px;
-}
 # Shell Style Guide
 
 <!-- The revision number is maintained manually.
