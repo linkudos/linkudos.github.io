@@ -1,6 +1,6 @@
 # Go Style
 
-https://google.github.io/styleguide/go
+https://linkudos.github.io/styleguide/go
 
 [Overview](index) | [Guide](guide) | [Decisions](decisions) |
 [Best practices](best-practices)
@@ -24,9 +24,9 @@ the style guidance given by anyone reviewing Go code at Google.
 
 Document            | Link                                                  | Primary Audience    | [Normative] | [Canonical]
 ------------------- | ----------------------------------------------------- | ------------------- | ----------- | -----------
-**Style Guide**     | https://google.github.io/styleguide/go/guide          | Everyone            | Yes         | Yes
-**Style Decisions** | https://google.github.io/styleguide/go/decisions      | Readability Mentors | Yes         | No
-**Best Practices**  | https://google.github.io/styleguide/go/best-practices | Anyone interested   | No          | No
+**Style Guide**     | https://linkudos.github.io/styleguide/go/guide          | Everyone            | Yes         | Yes
+**Style Decisions** | https://linkudos.github.io/styleguide/go/decisions      | Readability Mentors | Yes         | No
+**Best Practices**  | https://linkudos.github.io/styleguide/go/best-practices | Anyone interested   | No          | No
 
 [Normative]: #normative
 [Canonical]: #canonical
@@ -35,12 +35,12 @@ Document            | Link                                                  | Pr
 
 ### Documents
 
-1.  The **[Style Guide](https://google.github.io/styleguide/go/guide)** outlines
+1.  The **[Style Guide](https://linkudos.github.io/styleguide/go/guide)** outlines
     the foundation of Go style at Google. This document is definitive and is
     used as the basis for the recommendations in Style Decisions and Best
     Practices.
 
-1.  **[Style Decisions](https://google.github.io/styleguide/go/decisions)** is a
+1.  **[Style Decisions](https://linkudos.github.io/styleguide/go/decisions)** is a
     more verbose document that summarizes decisions on specific style points and
     discusses the reasoning behind the decisions where appropriate.
 
@@ -49,7 +49,7 @@ Document            | Link                                                  | Pr
     individual Go programmers at Google should keep up-to-date with this
     document.
 
-1.  **[Best Practices](https://google.github.io/styleguide/go/best-practices)**
+1.  **[Best Practices](https://linkudos.github.io/styleguide/go/best-practices)**
     documents some of the patterns that have evolved over time that solve common
     problems, read well, and are robust to code maintenance needs.
 
@@ -109,7 +109,7 @@ below:
     canonical documents are generally shorter and prescribe fewer elements of
     style than non-canonical documents.
 
-    https://google.github.io/styleguide/go#canonical
+    https://linkudos.github.io/styleguide/go#canonical
 
 *   **Normative**: Intended to establish consistency <a id="normative"></a>
 
@@ -121,7 +121,7 @@ below:
     expected to be familiar with the normative documents, but the documents will
     frequently be used as a reference by reviewers in readability reviews.
 
-    https://google.github.io/styleguide/go#normative
+    https://linkudos.github.io/styleguide/go#normative
 
 *   **Idiomatic**: Common and familiar <a id="idiomatic"></a>
 
@@ -131,7 +131,7 @@ below:
     unidiomatic if both serve the same purpose in context, as this is what will
     be the most familiar to readers.
 
-    https://google.github.io/styleguide/go#idiomatic
+    https://linkudos.github.io/styleguide/go#idiomatic
 
 <a id="references"></a>
 

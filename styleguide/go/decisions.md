@@ -2,7 +2,7 @@
 
 # Go Style Decisions
 
-https://google.github.io/styleguide/go/decisions
+https://linkudos.github.io/styleguide/go/decisions
 
 [Overview](index) | [Guide](guide) | [Decisions](decisions) |
 [Best practices](best-practices)
@@ -30,7 +30,7 @@ This document is **not exhaustive** and will grow over time. In cases where
 [the core style guide](guide) contradicts the advice given here, **the style
 guide takes precedence**, and this document should be updated accordingly.
 
-See [the Overview](https://google.github.io/styleguide/go#about) for the full
+See [the Overview](https://linkudos.github.io/styleguide/go#about) for the full
 set of Go Style documents.
 
 The following sections have moved from style decisions to another part of the
@@ -129,12 +129,12 @@ See also: [Go blog post about package names](https://go.dev/blog/package-names).
 *   Abbreviations for the type itself
 *   Applied consistently to every receiver for that type
 
-Long Name                   | Better Name
---------------------------- | -------------------------
-`func (tray Tray)`          | `func (t Tray)`
-`func (info *ResearchInfo)` | `func (ri *ResearchInfo)`
-`func (this *ReportWriter)` | `func (w *ReportWriter)`
-`func (self *Scanner)`      | `func (s *Scanner)`
+| Long Name                   | Better Name               |
+| --------------------------- | ------------------------- |
+| `func (tray Tray)`          | `func (t Tray)`           |
+| `func (info *ResearchInfo)` | `func (ri *ResearchInfo)` |
+| `func (this *ReportWriter)` | `func (w *ReportWriter)`  |
+| `func (self *Scanner)`      | `func (s *Scanner)`       |
 
 [Receiver]: https://golang.org/ref/spec#Method_declarations
 
@@ -211,16 +211,16 @@ have the same case. `URL` should appear as `URL` or `url` (as in `urlPony`, or
 
 <!-- Keep this table narrow. If it must grow wider, replace with a list. -->
 
-Initialism(s) | Scope      | Correct  | Incorrect
-------------- | ---------- | -------- | --------------------------------------
-XML API       | Exported   | `XMLAPI` | `XmlApi`, `XMLApi`, `XmlAPI`, `XMLapi`
-XML API       | Unexported | `xmlAPI` | `xmlapi`, `xmlApi`
-iOS           | Exported   | `IOS`    | `Ios`, `IoS`
-iOS           | Unexported | `iOS`    | `ios`
-gRPC          | Exported   | `GRPC`   | `Grpc`
-gRPC          | Unexported | `gRPC`   | `grpc`
-DDoS          | Exported   | `DDoS`   | `DDOS`, `Ddos`
-DDoS          | Unexported | `ddos`   | `dDoS`, `dDOS`
+| Initialism(s) | Scope      | Correct  | Incorrect                              |
+| ------------- | ---------- | -------- | -------------------------------------- |
+| XML API       | Exported   | `XMLAPI` | `XmlApi`, `XMLApi`, `XmlAPI`, `XMLapi` |
+| XML API       | Unexported | `xmlAPI` | `xmlapi`, `xmlApi`                     |
+| iOS           | Exported   | `IOS`    | `Ios`, `IoS`                           |
+| iOS           | Unexported | `iOS`    | `ios`                                  |
+| gRPC          | Exported   | `GRPC`   | `Grpc`                                 |
+| gRPC          | Unexported | `gRPC`   | `grpc`                                 |
+| DDoS          | Exported   | `DDoS`   | `DDOS`, `Ddos`                         |
+| DDoS          | Unexported | `ddos`   | `dDoS`, `dDOS`                         |
 
 <!--#include file="/go/g3doc/style/includes/special-name-exception.md"-->
 
@@ -376,11 +376,11 @@ clear to the reader what type a variable is by how it is used. It is only
 necessary to clarify the type of a variable if its value appears twice in the
 same scope.
 
-Repetitive Name               | Better Name
------------------------------ | ----------------------
-`var numUsers int`            | `var users int`
-`var nameString string`       | `var name string`
-`var primaryProject *Project` | `var primary *Project`
+| Repetitive Name               | Better Name            |
+| ----------------------------- | ---------------------- |
+| `var numUsers int`            | `var users int`        |
+| `var nameString string`       | `var name string`      |
+| `var primaryProject *Project` | `var primary *Project` |
 
 If the value appears in multiple forms, this can be clarified either with an
 extra word like `raw` and `parsed` or with the underlying representation:
@@ -737,7 +737,7 @@ in a deferred closure.
 > document.
 
 [Naked returns]: https://tour.golang.org/basics/7
-[GoTip #38: Functions as Named Types]: https://google.github.io/styleguide/go/index.html#gotip
+[GoTip #38: Functions as Named Types]: https://linkudos.github.io/styleguide/go/index.html#gotip
 [`WithTimeout`]: https://pkg.go.dev/context#WithTimeout
 [`CancelFunc`]: https://pkg.go.dev/context#CancelFunc
 
@@ -1250,7 +1250,7 @@ See [Go Tip #1: Line of Sight] and
 [TotT: Reduce Code Complexity by Reducing Nesting](https://testing.googleblog.com/2017/06/code-health-reduce-nesting-reduce.html)
 for more details.
 
-[Go Tip #1: Line of Sight]: https://google.github.io/styleguide/go/index.html#gotip
+[Go Tip #1: Line of Sight]: https://linkudos.github.io/styleguide/go/index.html#gotip
 
 <a id="language"></a>
 
@@ -2312,9 +2312,9 @@ Do not export interfaces that the users of the package do not need.
 
 **TODO:** Write a more in-depth doc on interfaces and link to it here.
 
-[GoTip #42: Authoring a Stub for Testing]: https://google.github.io/styleguide/go/index.html#gotip
-[GoTip #49: Accept Interfaces, Return Concrete Types]: https://google.github.io/styleguide/go/index.html#gotip
-[GoTip #78: Minimal Viable Interfaces]: https://google.github.io/styleguide/go/index.html#gotip
+[GoTip #42: Authoring a Stub for Testing]: https://linkudos.github.io/styleguide/go/index.html#gotip
+[GoTip #49: Accept Interfaces, Return Concrete Types]: https://linkudos.github.io/styleguide/go/index.html#gotip
+[GoTip #78: Minimal Viable Interfaces]: https://linkudos.github.io/styleguide/go/index.html#gotip
 [real implementation]: best-practices#use-real-transports
 [public API]: https://abseil.io/resources/swe-book/html/ch12.html#test_via_public_apis
 [double types]: https://abseil.io/resources/swe-book/html/ch13.html#techniques_for_using_test_doubles
@@ -2752,8 +2752,8 @@ with subcommands.
 See also:
 
 *   [Tip of the Week #45: Avoid Flags, Especially in Library Code][totw-45]
-*   [Go Tip #10: Configuration Structs and Flags](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #80: Dependency Injection Principles](https://google.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #10: Configuration Structs and Flags](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #80: Dependency Injection Principles](https://linkudos.github.io/styleguide/go/index.html#gotip)
 
 [standard `flag` package]: https://golang.org/pkg/flag/
 [mixed caps]: guide#mixed-caps
@@ -3165,7 +3165,7 @@ condition, when subsequent comparison failures are not going to be meaningful.
 
 For table-driven test, consider using subtests and use `t.Fatal` rather than
 `t.Error` and `continue`. See also
-[GoTip #25: Subtests: Making Your Tests Lean](https://google.github.io/styleguide/go/index.html#gotip).
+[GoTip #25: Subtests: Making Your Tests Lean](https://linkudos.github.io/styleguide/go/index.html#gotip).
 
 **Best practice:** For more discussion about when `t.Fatal` should be used, see
 [best practices](best-practices#t-fatal).
@@ -3377,7 +3377,7 @@ some other error, then consider using `cmp` with [`cmpopts.EquateErrors`].
 > ```
 
 See also
-[GoTip #13: Designing Errors for Checking](https://google.github.io/styleguide/go/index.html#gotip).
+[GoTip #13: Designing Errors for Checking](https://linkudos.github.io/styleguide/go/index.html#gotip).
 
 [tott-350]: https://testing.googleblog.com/2015/01/testing-on-toilet-change-detector-tests.html
 [`cmpopts.EquateErrors`]: https://pkg.go.dev/github.com/google/go-cmp/cmp/cmpopts#EquateErrors
@@ -3548,7 +3548,7 @@ that the function returns a non-nil error for an invalid input, then writing two
 separate table-driven test functions is the best approach: one for normal
 non-error outputs, and one for error outputs.
 
-[GoTip #50: Disjoint Table Tests]: https://google.github.io/styleguide/go/index.html#gotip
+[GoTip #50: Disjoint Table Tests]: https://linkudos.github.io/styleguide/go/index.html#gotip
 
 <a id="table-tests-data-driven"></a>
 
@@ -3866,8 +3866,8 @@ Naturally, if anything not covered by the style guide does need more discussion,
 authors are welcome to ask -- either in the specific review, or on internal
 message boards.
 
-[composite declaration best practices]: https://google.github.io/styleguide/go/best-practices#vardeclcomposite
-[initialization best practices]: https://google.github.io/styleguide/go/best-practices#vardeclinitialization
+[composite declaration best practices]: https://linkudos.github.io/styleguide/go/best-practices#vardeclcomposite
+[initialization best practices]: https://linkudos.github.io/styleguide/go/best-practices#vardeclinitialization
 
 <!--
 

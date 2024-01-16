@@ -2,7 +2,7 @@
 
 # Go Style Guide
 
-https://google.github.io/styleguide/go/guide
+https://linkudos.github.io/styleguide/go/guide
 
 [Overview](index) | [Guide](guide) | [Decisions](decisions) |
 [Best practices](best-practices)

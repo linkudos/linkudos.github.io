@@ -2,7 +2,7 @@
 
 # Go Style Best Practices
 
-https://google.github.io/styleguide/go/best-practices
+https://linkudos.github.io/styleguide/go/best-practices
 
 [Overview](index) | [Guide](guide) | [Decisions](decisions) |
 [Best practices](best-practices)
@@ -274,7 +274,7 @@ other engineers.
 
 See also:
 
-*   [Go Tip #42: Authoring a Stub for Testing](https://google.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #42: Authoring a Stub for Testing](https://linkudos.github.io/styleguide/go/index.html#gotip)
 
 <a id="naming-doubles-multiple-behaviors"></a>
 
@@ -748,9 +748,9 @@ See also:
 *   [A post by the Go Blog on errors](https://go.dev/blog/go1.13-errors)
 *   [Package `errors`](https://pkg.go.dev/errors)
 *   [Package `upspin.io/errors`](https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html)
-*   [GoTip #89: When to Use Canonical Status Codes as Errors](https://google.github.io/styleguide/go/index.html#gotip)
-*   [GoTip #48: Error Sentinel Values](https://google.github.io/styleguide/go/index.html#gotip)
-*   [GoTip #13: Designing Errors for Checking](https://google.github.io/styleguide/go/index.html#gotip)
+*   [GoTip #89: When to Use Canonical Status Codes as Errors](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [GoTip #48: Error Sentinel Values](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [GoTip #13: Designing Errors for Checking](https://linkudos.github.io/styleguide/go/index.html#gotip)
 
 <a id="error-structure"></a>
 
@@ -823,7 +823,7 @@ func handlePet(...) {
 ```
 
 Do not attempt to distinguish errors based on their string form. (See
-[Go Tip #13: Designing Errors for Checking](https://google.github.io/styleguide/go/index.html#gotip)
+[Go Tip #13: Designing Errors for Checking](https://linkudos.github.io/styleguide/go/index.html#gotip)
 for more.)
 
 ```go
@@ -844,7 +844,7 @@ Other error structures can be used as appropriate, for example a project struct
 containing an error code and detail string. [Package `status`][status] is a
 common encapsulation; if you choose this approach (which you are not obligated
 to do), use [canonical codes]. See
-[Go Tip #89: When to Use Canonical Status Codes as Errors](https://google.github.io/styleguide/go/index.html#gotip)
+[Go Tip #89: When to Use Canonical Status Codes as Errors](https://linkudos.github.io/styleguide/go/index.html#gotip)
 to know if using status codes is the right choice.
 
 [`os.PathError`]: https://pkg.go.dev/os#PathError
@@ -986,7 +986,7 @@ Prefer to place `%w` at the end of an error string.
 
 Errors can be wrapped with
 [the `%w` verb](https://blog.golang.org/go1.13-errors), or by placing them in a
-[structured error](https://google.github.io/styleguide/go/index.html#gotip) that
+[structured error](https://linkudos.github.io/styleguide/go/index.html#gotip) that
 implements `Unwrap() error` (ex:
 [`fs.PathError`](https://pkg.go.dev/io/fs#PathError)).
 
@@ -1082,7 +1082,7 @@ conscious of what and how you log errors.
     This is similar but not identical to the standard library
     [package `expvar`].
 
-[good test failure messages]: https://google.github.io/styleguide/go/decisions#useful-test-failures
+[good test failure messages]: https://linkudos.github.io/styleguide/go/decisions#useful-test-failures
 [stopping the program]: #checks-and-panics
 [`rate.Sometimes`]: https://pkg.go.dev/golang.org/x/time/rate#Sometimes
 [PII]: https://en.wikipedia.org/wiki/Personal_data
@@ -1165,7 +1165,7 @@ this was a historical mistake. If you sample server logs from application
 servers in other languages, it is common to find large stacktraces that are left
 unhandled. Avoid this pitfall in your servers.
 
-[decision against panics]: https://google.github.io/styleguide/go/decisions#dont-panic
+[decision against panics]: https://linkudos.github.io/styleguide/go/decisions#dont-panic
 [`net/http` server]: https://pkg.go.dev/net/http#Server
 
 <a id="when-to-panic"></a>
@@ -1286,8 +1286,8 @@ See also:
 *   [GoTip #51: Patterns for Configuration]
 
 [commentary]: decisions#commentary
-[GoTip #41: Identify Function Call Parameters]: https://google.github.io/styleguide/go/index.html#gotip
-[GoTip #51: Patterns for Configuration]: https://google.github.io/styleguide/go/index.html#gotip
+[GoTip #41: Identify Function Call Parameters]: https://linkudos.github.io/styleguide/go/index.html#gotip
+[GoTip #51: Patterns for Configuration]: https://linkudos.github.io/styleguide/go/index.html#gotip
 
 <a id="documentation-conventions-contexts"></a>
 
@@ -1800,7 +1800,7 @@ fleet or even harm performance. When in doubt, see
 [zero initialization](#vardeclzero) or a
 [composite literal declaration](#vardeclcomposite).
 
-[GoTip #3: Benchmarking Go Code]: https://google.github.io/styleguide/go/index.html#gotip
+[GoTip #3: Benchmarking Go Code]: https://linkudos.github.io/styleguide/go/index.html#gotip
 
 <a id="decl-chan"></a>
 
@@ -1866,7 +1866,7 @@ your use case. Use your judgment, and balance the principles of [clarity] and
 [least mechanism].
 
 See also:
-[Go Tip #24: Use Case-Specific Constructions](https://google.github.io/styleguide/go/index.html#gotip)
+[Go Tip #24: Use Case-Specific Constructions](https://linkudos.github.io/styleguide/go/index.html#gotip)
 
 [option struct]: #option-structure
 [variadic options]: #variadic-options
@@ -2442,9 +2442,9 @@ func TestAcceptance(t *testing.T) {
 }
 ```
 
-[sentinels]: https://google.github.io/styleguide/go/index.html#gotip
-[custom types]: https://google.github.io/styleguide/go/index.html#gotip
-[aggregates errors]: https://google.github.io/styleguide/go/index.html#gotip
+[sentinels]: https://linkudos.github.io/styleguide/go/index.html#gotip
+[custom types]: https://linkudos.github.io/styleguide/go/index.html#gotip
+[aggregates errors]: https://linkudos.github.io/styleguide/go/index.html#gotip
 
 <a id="use-real-transports"></a>
 
@@ -2557,7 +2557,7 @@ fails, the user should know where, and why.
 **Tip:** Go 1.14 introduced a [`t.Cleanup`] function that can be used to
 register cleanup functions that run when your test completes. The function also
 works with test helpers. See
-[GoTip #4: Cleaning Up Your Tests](https://google.github.io/styleguide/go/index.html#gotip)
+[GoTip #4: Cleaning Up Your Tests](https://linkudos.github.io/styleguide/go/index.html#gotip)
 for guidance on simplifying test helpers.
 
 The snippet below in a fictional file called `paint_test.go` demonstrates how
@@ -3025,7 +3025,7 @@ str := b.String()
 ```
 
 **NOTE**: For more discussion, see
-[GoTip #29: Building Strings Efficiently](https://google.github.io/styleguide/go/index.html#gotip).
+[GoTip #29: Building Strings Efficiently](https://linkudos.github.io/styleguide/go/index.html#gotip).
 
 <a id="string-constants"></a>
 
@@ -3108,12 +3108,12 @@ constructors, functions, methods, or struct fields on the call chain.
 
 See also:
 
-*   [Go Tip #5: Slimming Your Client Libraries](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #24: Use Case-Specific Constructions](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #40: Improving Time Testability with Function Parameters](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #41: Identify Function Call Parameters](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #44: Improving Time Testability with Struct Fields](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #80: Dependency Injection Principles](https://google.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #5: Slimming Your Client Libraries](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #24: Use Case-Specific Constructions](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #40: Improving Time Testability with Function Parameters](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #41: Identify Function Call Parameters](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #44: Improving Time Testability with Struct Fields](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #80: Dependency Injection Principles](https://linkudos.github.io/styleguide/go/index.html#gotip)
 
 APIs that do not support explicit dependency passing become fragile as the
 number of clients increases:
@@ -3213,9 +3213,9 @@ clients:
 
 See also:
 
-*   [Go Tip #36: Enclosing Package-Level State](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #71: Reducing Parallel Test Flakiness](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #80: Dependency Injection Principles](https://google.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #36: Enclosing Package-Level State](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #71: Reducing Parallel Test Flakiness](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #80: Dependency Injection Principles](https://linkudos.github.io/styleguide/go/index.html#gotip)
 *   Error Handling:
     [Look Before You Leap](https://docs.python.org/3/glossary.html#term-LBYL)
     versus
@@ -3405,5 +3405,5 @@ cases:
 
 See also:
 
-*   [Go Tip #36: Enclosing Package-Level State](https://google.github.io/styleguide/go/index.html#gotip)
-*   [Go Tip #80: Dependency Injection Principles](https://google.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #36: Enclosing Package-Level State](https://linkudos.github.io/styleguide/go/index.html#gotip)
+*   [Go Tip #80: Dependency Injection Principles](https://linkudos.github.io/styleguide/go/index.html#gotip)
