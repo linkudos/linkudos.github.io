@@ -5,7 +5,7 @@ body {
   padding: 20px;
 }
 table {
-  background-color: transparent;
+  background-color: #333333;
 }
 </style>
 # Go Style
