@@ -4,6 +4,9 @@ body {
   color: #ffffff;
   padding: 20px;
 }
+table {
+  background-color: transparent;
+}
 </style>
 # Go Style
 
