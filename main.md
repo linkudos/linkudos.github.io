@@ -1,4 +1,4 @@
-**Doc List**
+
 # Style Guide
 - [Go Style](https://linkudos.github.io/styleguide/go/index)
 - [HTML CSS Style](https://linkudos.github.io/styleguide/htmlcssguide)
