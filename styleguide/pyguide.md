@@ -3,7 +3,12 @@ AUTHORS:
 Prefer only GitHub-flavored Markdown in external text.
 See README.md for details.
 -->
-
+<style>
+body {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
+}
 # Google Python Style Guide
 
 <!-- markdown="1" is required for GitHub Pages to render the TOC properly. -->

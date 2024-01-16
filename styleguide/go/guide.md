@@ -1,5 +1,10 @@
 <!--* toc_depth: 3 *-->
-
+<style>
+body {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
+}
 # Go Style Guide
 
 https://linkudos.github.io/styleguide/go/guide

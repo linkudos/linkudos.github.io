@@ -1,5 +1,11 @@
 <!--* toc_depth: 3 *-->
-
+<style>
+body {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
+}
+</style>
 # Go Style Best Practices
 
 https://linkudos.github.io/styleguide/go/best-practices

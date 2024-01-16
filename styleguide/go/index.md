@@ -1,10 +1,3 @@
-# Go Style
-
-https://linkudos.github.io/styleguide/go
-
-[Overview](index) | [Guide](guide) | [Decisions](decisions) |
-[Best practices](best-practices)
-
 <style>
 body {
   background-color: #121212;
@@ -12,6 +5,12 @@ body {
   padding: 20px;
 }
 </style>
+# Go Style
+
+https://linkudos.github.io/styleguide/go
+
+[Overview](index) | [Guide](guide) | [Decisions](decisions) |
+[Best practices](best-practices)
 
 <!--
 
