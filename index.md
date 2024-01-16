@@ -1,4 +1,8 @@
----
-layout: redirect
-redirect_url: https://linkudos.github.io/main
----
+
+# Style Guide
+- [Go Style](https://linkudos.github.io/styleguide/go/index)
+- [HTML CSS Style](https://linkudos.github.io/styleguide/htmlcssguide)
+- [JS Style](https://linkudos.github.io/styleguide/jsguide)
+- [TS Style](https://linkudos.github.io/styleguide/tsguide)
+- [Python Style](https://linkudos.github.io/styleguide/pyguide)
+- [Shell Style](https://linkudos.github.io/styleguide/shellguide)
