@@ -1,9 +1,13 @@
 name: ""
 title: null
+# Science and technology
 # remote_theme: pages-themes/architect@v0.2.0
+# Light and green
 # remote_theme: pages-themes/cayman@v0.2.0
-remote_theme: pages-themes/dinky@v0.2.0
-# remote_theme: pages-themes/hacker@v0.2.0
+# Prim and simple
+# remote_theme: pages-themes/dinky@v0.2.0
+
+remote_theme: pages-themes/hacker@v0.2.0
 # remote_theme: pages-themes/leap-day@v0.2.0
 # remote_theme: pages-themes/merlot@v0.2.0
 # remote_theme: pages-themes/midnight@v0.2.0
