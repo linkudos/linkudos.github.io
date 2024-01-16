@@ -1,7 +1,5 @@
 ---
-title: My Markdown Page
+title: Try My Page
 ---
-
-# Welcome to my Markdown Page
 
 Content goes here.
