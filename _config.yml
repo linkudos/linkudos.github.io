@@ -6,7 +6,7 @@ title: null
 # remote_theme: pages-themes/cayman@v0.2.0
 # Prim and simple
 # remote_theme: pages-themes/dinky@v0.2.0
-
+# Dark and green with font like consoles
 remote_theme: pages-themes/hacker@v0.2.0
 # remote_theme: pages-themes/leap-day@v0.2.0
 # remote_theme: pages-themes/merlot@v0.2.0
