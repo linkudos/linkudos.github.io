@@ -5,6 +5,14 @@ https://linkudos.github.io/styleguide/go
 [Overview](index) | [Guide](guide) | [Decisions](decisions) |
 [Best practices](best-practices)
 
+<style>
+body {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
+}
+</style>
+
 <!--
 
 -->
@@ -22,11 +30,11 @@ intention is to minimize the guesswork of writing readable Go so that newcomers
 to the language can avoid common mistakes. The Style Guide also serves to unify
 the style guidance given by anyone reviewing Go code at Google.
 
-Document            | Link                                                  | Primary Audience    | [Normative] | [Canonical]
-------------------- | ----------------------------------------------------- | ------------------- | ----------- | -----------
-**Style Guide**     | https://linkudos.github.io/styleguide/go/guide          | Everyone            | Yes         | Yes
-**Style Decisions** | https://linkudos.github.io/styleguide/go/decisions      | Readability Mentors | Yes         | No
-**Best Practices**  | https://linkudos.github.io/styleguide/go/best-practices | Anyone interested   | No          | No
+| Document            | Link                                                    | Primary Audience    | [Normative] | [Canonical] |
+| ------------------- | ------------------------------------------------------- | ------------------- | ----------- | ----------- |
+| **Style Guide**     | https://linkudos.github.io/styleguide/go/guide          | Everyone            | Yes         | Yes         |
+| **Style Decisions** | https://linkudos.github.io/styleguide/go/decisions      | Readability Mentors | Yes         | No          |
+| **Best Practices**  | https://linkudos.github.io/styleguide/go/best-practices | Anyone interested   | No          | No          |
 
 [Normative]: #normative
 [Canonical]: #canonical
