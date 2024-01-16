@@ -1,5 +1,4 @@
 <!--* toc_depth: 3 *-->
-layout: default
 
 # Go Style Decisions
 
